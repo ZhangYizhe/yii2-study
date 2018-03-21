@@ -10,6 +10,8 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
+Yii::$app->name = 'Yii 框架学习';
+
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>

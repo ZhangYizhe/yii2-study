@@ -1,0 +1,72 @@
+2018-03-21 10:45:13 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /Users/zhangyizhe/Sites/yii2-study/basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/zhangyizhe/Sites/yii2-study/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /Users/zhangyizhe/Sites/yii2-study/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/zhangyizhe/Sites/yii2-study/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/zhangyizhe/Sites/yii2-study/basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/zhangyizhe/Sites/yii2-study/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/zhangyizhe/Sites/yii2-study/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-03-21 10:45:13 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ffa0c23e4a9d70646f9e158cafbfb04f'
+    '_csrf' => '2c87bd3921035af6f93af76a9a9276652d364380adc7e3830400b3a255177f00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EFpDaYY-sqsYLp1LyT4G-tL157kCIxgy\";}'
+    'auto_layout' => ''
+    'CNZZDATA30092183' => 'cnzz_eid=194047240-1516774073-http%3A%2F%2Flocalhost%2F&ntime=1517809520'
+    'UM_distinctid' => '16126fbcc11620-0c0bc2897309938-1c451b26-1fa400-16126fbcc12900'
+    'Phpstorm-fb24da03' => '43e58584-ff14-4c7b-84d1-dc7bef3fd187'
+    'Phpstorm-fb24da02' => '907b5a04-9d61-4cdb-9119-80a635cc2df1'
+    'Phpstorm-fb24da01' => '779d7122-635d-469c-9efd-ad60f4fb8880'
+    'pgv_pvi' => '1341881344'
+    'Phpstorm-fb24d641' => '85548666-80b9-4901-bba5-bdc85c96bab4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ebf9f586cc13936cf117bdda79656692__returnUrl' => '/index.php?r=weadm/adminHome/index'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WrIpqf-Aj-tR0aHug4@k4AAAAAc'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => 'PHPSESSID=ffa0c23e4a9d70646f9e158cafbfb04f; _csrf=2c87bd3921035af6f93af76a9a9276652d364380adc7e3830400b3a255177f00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EFpDaYY-sqsYLp1LyT4G-tL157kCIxgy%22%3B%7D; auto_layout=; CNZZDATA30092183=cnzz_eid%3D194047240-1516774073-http%253A%252F%252Flocalhost%252F%26ntime%3D1517809520; UM_distinctid=16126fbcc11620-0c0bc2897309938-1c451b26-1fa400-16126fbcc12900; Phpstorm-fb24da03=43e58584-ff14-4c7b-84d1-dc7bef3fd187; Phpstorm-fb24da02=907b5a04-9d61-4cdb-9119-80a635cc2df1; Phpstorm-fb24da01=779d7122-635d-469c-9efd-ad60f4fb8880; pgv_pvi=1341881344; Phpstorm-fb24d641=85548666-80b9-4901-bba5-bdc85c96bab4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Unix) OpenSSL/1.0.2n PHP/7.2.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/zhangyizhe/Sites/yii2-study/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/zhangyizhe/Sites/yii2-study/basic/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/zhangyizhe/Sites/yii2-study/basic/web/index.php'
+    'REMOTE_PORT' => '52857'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521625513.282
+    'REQUEST_TIME' => 1521625513
+]
